@@ -43,9 +43,9 @@ function App() {
               <button onClick={geetData}>Done</button>
               {!isloading? 
               <div><h3>City Name: {data.name}</h3>
-              <h3>Temperature: {Math.floor(data.main.temp - 273.15)}</h3>
+              <h3>Temperature: {Math.floor(data.main.temp - 273.15)} <sup>o</sup>C</h3>
                   </div>
-              : <h1> Searching</h1>
+              : <h1> Searching...</h1>
               }
           </div>
   );
