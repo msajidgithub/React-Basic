@@ -1,2 +1,2 @@
 # React-Basic
-https://git hub.com/msajidgithub/React-Basic.git
+https://github.com/msajidgithub/React-Basic.git
