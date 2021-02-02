@@ -1,10 +1,33 @@
+body{
+  background-color: #282c34;
+
+}
 #root{
+  color: antiquewhite;
+}
+
+.heading{
   text-align: center;
+}
+
+
+.textDisplay{
+  
+display: flex;
+box-sizing: border-box;
+ word-wrap: break-word;
+ width: 100%;
+}
+
+.textDisplay ul li{
+list-style: none;
 }
 
 .App {
   text-align: center;
+
 }
+
 
 .App-logo {
   height: 40vmin;
