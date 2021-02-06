@@ -13,10 +13,6 @@ body{
 
 .textDisplay{
   
-display: flex;
-box-sizing: border-box;
- word-wrap: break-word;
- width: 100%;
 }
 
 .textDisplay ul li{

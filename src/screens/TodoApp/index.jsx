@@ -3,15 +3,19 @@ import { Icon } from '@material-ui/core';
 import AssignmentRoundedIcon from '@material-ui/icons/AssignmentRounded';
 import { AssignmentIndOutlined } from '@material-ui/icons';
 import AssignmentOutlinedIcon from '@material-ui/icons/AssignmentOutlined';
+
+
 class TodoApp extends Component {
+ 
     constructor() {
+
         super()
         this.state = {
             userInput: "",
             TodoArry: []
         }
     }
-
+      
 
 
 
@@ -50,10 +54,16 @@ class TodoApp extends Component {
                             return (
                                 <li >  <AssignmentOutlinedIcon
                                 fontSize="inherit"
-                                color="inherit" /> <span style={{marginLeft:'2em'}}>{v}</span> </li>
+                                color="inherit" /> 
+                                <span style={{marginLeft:'2em'}}>{v}</span> 
+                              </li>
+
                             );
                         })}
                     </ul>
+                   
+    
+
                 </div>
             </div>
         )
