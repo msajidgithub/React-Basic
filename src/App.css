@@ -2,6 +2,45 @@ body{
   background-color: #282c34;
 
 }
+
+.branchBtns ul li {
+  position: relative;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.branchBtns ul a {
+  width: 160px;
+  text-align: center;
+  color: #000;
+  padding: 6px 10px;
+  border-radius: 6px;
+  background: #000;
+  margin: 0 2px;
+  text-decoration: none;
+  font-size: 2rem;
+}
+.branchBtns ul a:visited {
+  background-color: green;
+  color: #fff!important;
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
 .todo-box{
   width: 100%;
 }

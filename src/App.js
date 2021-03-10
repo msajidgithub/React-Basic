@@ -5,17 +5,19 @@ import WeatherApp from './screens/weatherApp'
 import TodoApp from './screens/TodoApp'
 // import KeyWorks from './screens/KeyWorks'
 // import UserData from './screens/UserData'
-import './App.css';
+// import './App.css';
+import './screens/Unsplash/Unsplash.css'
+import SearchPic from './screens/Unsplash/SearchPic';
+import NavSteper from './screens/NavSteper/NavSteper';
+import ComA from './screens/contextApi';
 
 
 function App() {
 
 
     return (
-        <div>
-            <TodoApp/>
-        </div>
-    );
+      <SearchPic />
+      );
 }
 
 export default App;
